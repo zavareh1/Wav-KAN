@@ -1,10 +1,10 @@
 '''This is a sample code for the simulations of the paper:
+Bozorgasl, Zavareh and Chen, Hao, Wav-KAN: Wavelet Kolmogorov-Arnold Networks (May, 2024)
+
+https://arxiv.org/abs/2405.12832
+and also available at:
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325
-which will be published soon. We used efficient KAN notation and some part of the code:https://github.com/Blealtan/efficient-kan
-
-We put the Arxiv link of the paper soon (Now, it is on SSRN online library)
-
-Bozorgasl, Zavareh and Chen, Hao, Wav-KAN: Wavelet Kolmogorov-Arnold Networks (May 15, 2024). Available at SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325
+We used efficient KAN notation and some part of the code:https://github.com/Blealtan/efficient-kan
 
 '''
 import torch
