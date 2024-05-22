@@ -99,13 +99,7 @@ class KANLinear(nn.Module):
             wavelet = sinc * window
             wavelet_weighted = wavelet * self.wavelet_weights.unsqueeze(0).expand_as(wavelet)
             wavelet_output = wavelet_weighted.sum(dim=2)
-        elif self.wavelet_type == 'bump':
-            # Bump wavelet is only defined in the interval (-1, 1)
-            # We apply a condition to restrict the computation to this interval
-            inside_interval = (x_scaled > -1.0) & (x_scaled < 1.0)
-            wavelet = torch.exp(-1.0 / (1 - x_scaled**2)) * inside_interval.float()
-            wavelet_weighted = wavelet * self.wavelet_weights.unsqueeze(0).expand_as(wavelet)
-            wavelet_output = wavelet_weighted.sum(dim=2)
+            #You can try many more wavelet types ...
         else:
             raise ValueError("Unsupported wavelet type")
 
