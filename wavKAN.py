@@ -9,11 +9,11 @@ from tqdm import tqdm
 import pandas as pd
 from KAN import *
 
-# Define the wavelet types
+# Defining the wavelet types
 #wavelet_types = ['mexican_hat', 'morlet', 'dog', 'meyer', 'shannon', 'bump', etc.] #It can include #all wavelet types
 wavelet_types = ['mexican_hat', 'morlet', 'dog', 'shannon']
 
-# Load MNIST
+# Loading MNIST data set
 transform = transforms.Compose(
     [transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))]
 )
@@ -22,16 +22,16 @@ valset = torchvision.datasets.MNIST(root="./data", train=False, download=True, t
 trainloader = DataLoader(trainset, batch_size=64, shuffle=True)
 valloader = DataLoader(valset, batch_size=64, shuffle=False)
 
-# Trials and Epochs
+# Trials and Epochs (epochs per trial)
 trials = 5
 epochs_per_trial = 50
 
-# Loop over each wavelet type
+# Looping over each wavelet type
 for wavelet in wavelet_types:
     all_train_losses, all_train_accuracies = [], []
     all_val_losses, all_val_accuracies = [], []
     print(f'Wavelet is {wavelet}')
-
+    #For a specified number of trials 
     for trial in range(trials):
         print(f'Trial is {trial}')
         # Define model, optimizer, scheduler for each trial
@@ -44,7 +44,7 @@ for wavelet in wavelet_types:
 
         trial_train_losses, trial_val_losses = [], []
         trial_train_accuracies, trial_val_accuracies = [], []
-
+        #For a specified number of epchs 
         for epoch in range(epochs_per_trial):
             # Training
             train_loss, train_correct, train_total = 0.0, 0, 0
@@ -82,7 +82,6 @@ for wavelet in wavelet_types:
                     _, predicted = torch.max(outputs.data, 1)
                     val_total += labels.size(0)
                     val_correct += (predicted == labels).sum().item()
-
             val_loss /= len(valloader)
             val_acc = 100 * val_correct / val_total
             trial_val_losses.append(val_loss)
@@ -90,12 +89,11 @@ for wavelet in wavelet_types:
 
             # Update learning rate
             scheduler.step()
-
+        #collecting statistics
         all_train_losses.append(trial_train_losses)
         all_train_accuracies.append(trial_train_accuracies)
         all_val_losses.append(trial_val_losses)
         all_val_accuracies.append(trial_val_accuracies)
-
     # Average results across trials and write to Excel
     avg_train_losses = pd.DataFrame(all_train_losses).mean().tolist()
     avg_train_accuracies = pd.DataFrame(all_train_accuracies).mean().tolist()
@@ -109,9 +107,8 @@ for wavelet in wavelet_types:
         'Validation Loss': avg_val_losses,
         'Validation Accuracy': avg_val_accuracies
     })
-
-    # Save the results
-    # Save the results to an Excel file named after the wavelet type
+    # Saving the results
+    # Saving the results to an Excel file named after the wavelet type
     file_name = f'{wavelet}_results.xlsx'
     results_df.to_excel(file_name, index=False)
 
