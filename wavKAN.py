@@ -11,7 +11,7 @@ from KAN import *
 
 # Defining the wavelet types
 #wavelet_types = ['mexican_hat', 'morlet', 'dog', 'meyer', 'shannon', 'bump', etc.] #It can include #all wavelet types
-wavelet_types = ['mexican_hat', 'morlet', 'dog', 'shannon']
+wavelet_types = ['mexican_hat', 'morlet', 'dog']
 
 # Loading MNIST data set
 transform = transforms.Compose(
