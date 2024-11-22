@@ -47,7 +47,7 @@ Our results highlight the potential of Wav-KAN as a **powerful tool** for develo
 Stay tuned for updates! Feedback and contributions are welcome. 🚀
 
 
-## References
+## Reference
 
 If you find this repository helpful in your research or projects, please consider citing the following paper:
 
