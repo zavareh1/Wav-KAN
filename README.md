@@ -46,3 +46,16 @@ Our results highlight the potential of Wav-KAN as a **powerful tool** for develo
 
 Stay tuned for updates! Feedback and contributions are welcome. 🚀
 
+
+## References
+
+If you find this repository helpful in your research or projects, please consider citing the following paper:
+
+```bibtex
+@article{bozorgasl2024wavkan,
+  author  = {Zavareh Bozorgasl and Hao Chen},
+  title   = {Wav-KAN: Wavelet Kolmogorov-Arnold Networks},
+  journal = {arXiv preprint arXiv:2405.12832},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2405.12832}
+}
