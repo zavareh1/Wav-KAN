@@ -4,10 +4,7 @@ The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov
 
 ![View on X](Images/wav-kan.jpg) 
 
-Available at:
-https://arxiv.org/abs/2405.12832
-and also:
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325
+
 
 # Wav-KAN: Wavelet Kolmogorov-Arnold Networks
 
