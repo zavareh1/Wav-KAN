@@ -6,9 +6,10 @@ The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov
 - Also available at: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325)
 - Citations at: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C13&q=Wav-kan%3A+Wavelet+kolmogorov-arnold+networks&btnG=)
 
+## Highlights of Wav-KAN on Social Media
 ![View on X](Images/wav-kan.jpg) 
 
-
+This image showcases Wav-KAN being highlighted and shared with the community on social media. It reflects the growing interest and engagement around this innovative framework.
 
 ## Current Contents
 - **MNIST Training and Testing**:
