@@ -41,7 +41,7 @@ Our results highlight the potential of Wav-KAN as a **powerful tool** for develo
 
 ## Future Updates
 - Additional code implementations and simulations for Wav-KAN.
-- Integration with **PyTorch** and **TensorFlow** for ease of use in modern neural network frameworks.
+
 
 ---
 
