@@ -1,9 +1,8 @@
 # Wav-KAN
 The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov-Arnold Networks". 
 
-Images
 
-![View on X](images/wav-kan.jpg) 
+![View on X](Images/wav-kan.jpg) 
 
 Available at:
 https://arxiv.org/abs/2405.12832
