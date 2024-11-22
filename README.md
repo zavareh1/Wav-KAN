@@ -1,15 +1,14 @@
 # Wav-KAN: Wavelet Kolmogorov-Arnold Networks
 The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov-Arnold Networks". 
 
-
-![View on X](Images/wav-kan.jpg) 
-
-
-
 ## Links to the Paper
 - Available at: [arXiv](https://arxiv.org/abs/2405.12832)
 - Also available at: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325)
 - Citations at: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C13&q=Wav-kan%3A+Wavelet+kolmogorov-arnold+networks&btnG=)
+
+![View on X](Images/wav-kan.jpg) 
+
+
 
 ## Current Contents
 - **MNIST Training and Testing**:
