@@ -9,7 +9,7 @@ The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov
 ### We applied Wav-KAN to Hyperspectral Image Classification
 - Available at: [arXiv](https://arxiv.org/abs/2406.07869)
 - Citations at: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C13&q=Unveiling+the+Power+of+Wavelets%3A+A+Wavelet-based+Kolmogorov-Arnold+Network+for+Hyperspectral+Image+Classification&btnG=)
-## Highlights of Wav-KAN on Social Media
+### Highlights of Wav-KAN on Social Media
 ![View on X](Images/wav-kan.jpg) 
 
 This image showcases Wav-KAN being highlighted and shared with the community on social media. It reflects the growing interest and engagement around this innovative framework.
