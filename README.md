@@ -1,12 +1,12 @@
 # Wav-KAN: Wavelet Kolmogorov-Arnold Networks
 The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov-Arnold Networks". To see a diverse range of possible applications of Wav-KAN, check "Applications" folder!
 
-## Links to the Paper
+### Links to the Paper
 - Available at: [arXiv](https://arxiv.org/abs/2405.12832)
 - Also available at: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835325)
 - Citations at: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C13&q=Wav-kan%3A+Wavelet+kolmogorov-arnold+networks&btnG=)
 
-## We applied Wav-KAN to Hyperspectral Image Classification
+### We applied Wav-KAN to Hyperspectral Image Classification
 - Available at: [arXiv](https://arxiv.org/abs/2406.07869)
 - Citations at: [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C13&q=Unveiling+the+Power+of+Wavelets%3A+A+Wavelet-based+Kolmogorov-Arnold+Network+for+Hyperspectral+Image+Classification&btnG=)
 ## Highlights of Wav-KAN on Social Media
