@@ -14,7 +14,7 @@ The codes to replicate the simulations of the paper:"Wav-KAN: Wavelet Kolmogorov
 
 This image showcases Wav-KAN being highlighted and shared with the community on social media. It reflects the growing interest and engagement around this innovative framework.
 
-## Current Contents
+## Current Contents of the Repository
 - **MNIST Training and Testing**:
   - The repository currently contains the codes required to replicate MNIST training and testing.
   - More codes and examples will be added in future updates.
