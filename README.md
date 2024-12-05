@@ -18,6 +18,7 @@ This image showcases Wav-KAN being highlighted and shared with the community on 
 - **MNIST Training and Testing**:
   - The repository currently contains the codes required to replicate MNIST training and testing.
   - More codes and examples will be added in future updates.
+- **Possible applications of Wavelet/Wav-KAN**
 
 ## Abstract
 In this paper, we introduce **Wav-KAN**, an innovative neural network architecture that leverages the **Wavelet Kolmogorov-Arnold Networks (Wav-KAN)** framework to enhance interpretability and performance.
