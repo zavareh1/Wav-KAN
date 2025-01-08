@@ -33,7 +33,7 @@ Traditional multilayer perceptrons (MLPs) and even recent advancements like Spl-
 ### Wav-KAN addresses these issues by:
 - Incorporating **wavelet functions** into the Kolmogorov-Arnold network structure.
 - Efficiently capturing both **high-frequency** and **low-frequency components** of input data.
-- Using **discrete wavelet transforms (DWT)** for multiresolution analysis, eliminating the need for recalculations in detail extraction.
+- Using **continuos (dyadic) wavelet transforms** for multiresolution analysis, eliminating the need for recalculations in detail extraction.
 
 ### Key Features:
 - Wavelet-based approximations employ **orthogonal or semi-orthogonal bases**, balancing data structure representation and noise reduction.
